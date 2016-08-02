@@ -1,0 +1,39 @@
+Enter file contents here1.	Which of the followings is considered boxing?
+Boxing is the process of converting a value type to the type object or to any interface type implemented by this value type. When the CLR boxes a value type, it wraps the value inside a System.Object and stores it on the managed heap. Unboxing extracts the value type from the object. 
+a. double dblx = fx;
+b. float fx = ix;
+c. object myobjx = fx;
+d. int ix = objy;
+
+2.	Which of the followings is considered unboxing?
+a. string str = ix.ToString();
+b. double dblx =(double) fx;
+c. object myobjx = fx;
+d. int ix = (int) objy;
+
+3.	Object objdblx is of type double. Assign the value of this object to a variable of type float.
+float fx =(float) objdblx;
+
+4.	Object objflx is of type float. Assign the value of this object to another variable of type double.
+double dx = objflx;
+
+5.	Convert the string strx to a double dblx:
+double dblx = (double)(fx)myObj;
+
+6.	Convert the integer ix to a float fx:
+float fx = ifx
+
+7.	Convert the double dblx to a string strx:
+string strx = (Double)(String)strx
+
+8.	Object is the   ultimate base class_ of all other data types.
+
+9.	What is an object (the definition)? Object by itself is a type and mother of all types. Anything which has some properties and can perform some function is an object. An object effectively consists of: 
+  a.	Fields (the state)
+  b.	A type reference (can never change through the lifetime of the object)
+  c.	A monitor (for synchronization)
+
+10.	How do you declare an object in C#?
+object myObj = x;
+
+11.	What is the difference between an object and a variable? Object by itself is a type and mother of all types and a variable is just a storage container for a given type.
